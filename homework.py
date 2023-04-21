@@ -69,7 +69,6 @@ class Running(Training):
 
 class SportsWalking(Training):
     """Тренировка: спортивная ходьба."""
-    height: float
     COEF_WALK_GIVEN_1: float = 0.035
     COEF_WALK_GIVEN_2: float = 0.029
     COEF_SPEED_UNIT_CONV: float = 0.278  # коэф. для перевода из км/ч в м/с
